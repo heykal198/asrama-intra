@@ -1,0 +1,89 @@
+body{
+font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+padding-top: 60px;
+padding-bottom: 20px;
+}
+p, h1, form, button{border:0; margin:0; padding:0;}
+.spacer{
+clear:both; 
+height:1px;
+}
+.sidebar-nav {
+padding: 9px 0;
+}
+.face 
+{
+float: left;
+border-right: solid 1px #DEDEDE;
+border-bottom: solid 1px #DEDEDE;
+width: 60px;
+height: 60px;
+padding: 4px;
+background-color: white;
+margin-right: 5px;
+}
+.span7 img
+{
+max-width:550px;
+border: 1px solid #CCC;
+padding: 3px;
+background: white;
+}
+
+/* ----------- My Form ----------- */
+.myform{
+margin:0 auto;
+width:remainder;
+padding:5px;
+}
+
+/* ----------- stylized ----------- */
+#stylized{
+border:solid 2px #b7ddf2;
+background:#ebf4fb;
+border-radius: 6px;
+}
+#stylized h1 {
+font-size:14px;
+font-weight:bold;
+margin-bottom:3px;
+}
+#stylized p{
+font-size:11px;
+color:#666666;
+margin-bottom:20px;
+border-bottom:solid 1px #b7ddf2;
+padding-bottom:10px;
+}
+#stylized label{
+display:block;
+font-weight:bold;
+text-align:right;
+width:115px;
+float:left;
+font-size:12px;
+}
+#stylized .small{
+color:#666666;
+display:block;
+font-size:11px;
+font-weight:normal;
+text-align:right;
+width:115px;
+font-style:italic;
+font-size:11px;
+}
+#stylized input{
+border:solid 1px #ccc;
+}
+#stylized select{
+border:solid 1px #ccc;
+/*border:solid 1px #aacfe4;*/
+}
+#stylized textarea{
+border:solid 1px #ccc;
+}
+
+#stylized tr:nth-child(even) {background: #ebf4fb}
+#stylized tr:nth-child(odd) {background: white}

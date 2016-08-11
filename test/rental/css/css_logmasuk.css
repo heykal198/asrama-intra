@@ -1,0 +1,38 @@
+﻿.button
+{
+	border: thin solid #7CB33E;
+	background-color:#7CB33E;
+	font-weight: normal;
+    color:white;
+    font-family: Verdana;
+	height: 25px;
+	
+	-webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+      filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);
+      filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+      *zoom: 1;
+      -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 5px rgba(0, 0, 0, 0.05);
+         -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 5px rgba(0, 0, 0, 0.05);
+              box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 5px rgba(0, 0, 0, 0.05);
+              box-shadow: 0px 0px 3px #000;
+}
+.INPUT
+{
+    border-right: gray thin solid;
+    border-top: gray thin solid;
+    font-weight: bold;
+    border-left: gray thin solid;
+    color: black;
+    border-bottom: gray thin solid;
+    font-family: Verdana;
+}
+.textboxUpper
+{
+    font-family:Verdana;
+    font-size: 8pt;
+    color : Black; 
+    text-transform :uppercase;
+    text-align: left;
+}

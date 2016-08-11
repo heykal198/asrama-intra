@@ -1,0 +1,217 @@
+
+*{
+	margin: 0 0;
+	padding: 0 0;
+}
+
+input {
+    border: 0;
+    box-shadow: transparent 0;
+}
+
+body {
+	/*background: #f9f9f9;*/
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: small;
+	color: #000;
+	
+}
+#superWrapper {
+    /*background: #CCC url(images/body_bg.png);*/
+	background-color:#FFF;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;	
+}
+
+#header{
+	clear:both;
+	background:  url(images/main_01.jpg) no-repeat;
+	width:900px;
+	min-height:278px;
+	border-top-right-radius:6px;
+    border-top-left-radius:6px;
+ 
+	  
+ -webkit-box-shadow:  inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 5px rgba(0, 0, 0, 0.05);
+	 -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 5px rgba(0, 0, 0, 0.05);
+		  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 5px rgba(0, 0, 0, 0.05);
+		  box-shadow: 0px 15px 15px #000;		
+}
+
+#bulletin{
+    background: url(images/main_02.jpg) no-repeat;
+    width: 900px;
+	min-height:225px;
+	
+	-webkit-box-shadow:  inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 5px rgba(0, 0, 0, 0.05);
+	 -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 5px rgba(0, 0, 0, 0.05);
+		  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 5px rgba(0, 0, 0, 0.05);
+		  box-shadow: 0px 15px 15px #000;
+}
+#bulletin_new{
+	font-size:12px;	
+}
+
+#footer{
+    background: url(images/main_03.jpg) no-repeat;
+    height: 118px;
+	width:900px;
+	margin-top: -25px;
+	border-bottom-right-radius:6px;
+    border-bottom-left-radius:6px;
+		  
+	-webkit-box-shadow:  inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 5px rgba(0, 0, 0, 0.05);
+	 -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 5px rgba(0, 0, 0, 0.05);
+		  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 5px rgba(0, 0, 0, 0.05);
+		  box-shadow: 0px 15px 15px #000;	
+}
+
+#footerIn {
+	float: center;
+	text-align: center;
+	font-size: 12px;
+	color: #000;
+	padding: 10px;
+}
+
+#footertext{
+	float:center;
+	text-align:center;
+	font-size:12px;
+	color:#000;
+	padding-top:-220px;
+	margin-top:12px;
+	margin-right:95px;
+}
+
+#wrapper {
+	margin: 15px auto;
+	padding-left:85px;
+	width: 1000px;
+	min-height: 279px;	
+}
+
+#mainTitle {
+    margin: 100px 0 0 0;
+    height: 315px;
+    clear: both;
+    
+}
+.mainTitle {
+    background: url(images/mainTitle.png) no-repeat;
+    width: 376px;
+    height: 97px;
+	float: right;
+	margin-right: 45px;
+	margin-top: 65px;	
+}
+
+#bulletintext{
+	padding-top:10px;
+	padding-left:50px;
+	margin-left: 20px;
+	margin-top:-220px;
+	width:305px;
+	font-size:12px;
+	
+}
+
+#login{
+	/*background: url(images/logmasuk.png) no-repeat;*/
+	height: 300px;
+	width: 400px;
+	margin-left: 590px;
+	margin-top: -120px;
+	padding:55px 0px 0px 4px;
+	color:#FFF;
+}
+
+.all-h4 {
+	font-weight: bold;
+	font-size: 12px;
+	color:#000;
+	text-transform: uppercase;
+}
+
+#login table {
+	font-weight: normal;
+	font-size: 10px;
+	width:150px
+}
+#login txt {
+	margin-bottom:10px;
+	font-weight: normal;
+	font-size: 12px;
+	color:#990066;	
+}
+#btn_masuk {
+	background: #33C;
+	/*background: #FFF;*/
+	width:50px;
+	height:25px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: #FFF;
+	font-weight: bold;
+	
+}
+#btn_semula {
+	background:#666;
+	/*background: #FFF;*/
+	margin-left:5px;
+	width:55px;
+	height:25px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: #FFF;
+	font-weight: bold;
+	
+}
+.txt_login {
+	height: 22px;
+	width: 170px;
+	margin-bottom: 9px;
+	margin-left: 20px;
+	font-weight: normal;
+	border:solid 2px #CCCCCC;
+}
+#txt {
+	margin-top: 9px;
+	font-size: 10px;
+}
+#txt_label{
+	font-size:11px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	color:#FFF;
+	padding-bottom:15px;
+	padding-right:3px;
+	
+}
+
+#semak_kekosongan{
+	font-size:12px;
+	font-weight:bold;
+	margin-left: 630px;
+	margin-top: -150px;
+	padding:60px 0px 0px 4px;
+}
+#status_permohonan{
+	font-size:12px;
+	font-weight:bold;
+	margin-left: 630px;
+	margin-top: -150px;
+	padding:110px 0px 0px 4px;
+}
+
+#permohonan{
+	font-size:12px;
+	font-weight:bold;
+	margin-left: 630px;
+	margin-top: -165px;
+	padding:70px 0px 0px 4px;
+}
+

@@ -1,0 +1,167 @@
+
+* {
+	margin: 0 0;
+	padding: 0 0;
+}
+input {
+    border: 0;
+    box-shadow: transparent 0;
+}
+/* struktur utama */
+body {
+	background: #f9f9f9;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: small;
+	color: #ffffff;
+}
+#superWrapper {
+    background: #f9f9f9 url(images/body_bg.png) repeat-x;
+	background-repeat:repeat;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+	
+}
+#wrapper {
+	margin: 20px auto;
+	background: #ccc url(images/header.png) no-repeat;
+	width: 750px;
+	min-height: 279px;
+}
+#header {
+    margin: 40px 40px 0 0;
+    clear: both;
+}
+.logoUKM {
+    background: url(images/logoUKM.png) no-repeat;
+    width: 147px;
+    height: 71px;
+	margin-left: 55px;
+	margin-top: 60px;
+    float: left;
+}
+#mainTitle {
+    margin: 100px 0 0 0;
+    height: 315px;
+    clear: both;
+    
+}
+.mainTitle {
+    background: url(images/mainTitle.png) no-repeat;
+    width: 376px;
+    height: 97px;
+	float: right;
+	margin-right: 45px;
+	margin-top: 65px;
+	
+}
+#separator {
+    background: url(images/separator.png) no-repeat;
+    width: 750px;
+    height: 51px;
+	float: left;
+	margin-top: -230px;
+	
+}
+#bulletinboard {
+    background: url(images/buletin.png) no-repeat;
+    width: 362px;
+    height: 189px;
+	float: left;
+	margin-left: 35px;
+	margin-top: -210px;
+
+}
+#bulletintext1 {
+	font-size: 14px;
+	margin-left: 70px;
+	margin-top:-200px;
+	color:#000;
+	font-weight: normal;
+}
+
+#bulletintext{
+	padding-top:10px;
+	padding-left:50px;
+	margin-left: 20px;
+	margin-top:-220px;
+	width:305px;
+	font-size:12px;
+	
+}
+#footer {
+    clear: both;
+	margin-top:160px;
+}
+#footerIn {
+	float: center;
+	text-align: center;
+	font-size: 9px;
+	color: #000;
+	padding: 10px;
+}
+#login{
+	background: url(images/logmasuk.png) no-repeat;
+	height: 186px;
+	width: 284px;
+	margin-left: 410px;
+	margin-top: -150px;
+	padding:22px 0px 0px 22px;
+	color:#000;
+}
+
+#login h4 {
+	font-weight: bold;
+	font-size: 14px;
+	color:#000;
+	width:200px;
+	height:40px;
+	margin-top: 10px;
+}
+.all-h4 {
+	font-weight: bold;
+	font-size: 14px;
+	color:#000;
+	text-transform: uppercase;
+}
+
+#login table {
+	font-weight: normal;
+	font-size: 12px;
+}
+#login txt {
+	margin-bottom:10px;
+	font-weight: normal;
+	font-size: 14px;
+	color:#990066;	
+}
+#btn_masuk {
+	/*background: #560134;*/
+	background: orange;
+	width:86px;
+	height:20px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: #ffffff;
+	font-weight: bold;
+	
+}
+.txt_login {
+	height: 22px;
+	width: 160px;
+	margin-bottom: 9px;
+	margin-left: 12px;
+	font-weight: normal;
+	border:solid 2px #CCCCCC;
+}
+#txt {
+	margin-top: 9px;
+	font-size: 10px;
+}
+#information {
+	height: 130px;
+	width: 280px;
+	color: #000;
+	margin-left: 70px;
+}
